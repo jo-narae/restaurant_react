@@ -1,0 +1,12 @@
+.makeStyles-toolbarIcon-3 {
+  position: relative;
+  z-index: 2;
+}
+
+.MuiList-root.MuiList-padding {
+  position: absolute;
+}
+
+.MuiTypography-root.MuiLink-root.MuiLink-underlineHover.MuiTypography-colorInherit:hover {
+  text-decoration: none;
+}

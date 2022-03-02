@@ -1,0 +1,35 @@
+.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.MuiPaper-elevation0 {
+  background-color: transparent;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  width: 100%;
+}
+
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+  width: 100%;
+}
+
+.active .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+  background-color: #1977d2;
+  color: #fff;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.MuiList-root.MuiList-padding {
+  position: relative;
+}
+
+.MuiList-root.MuiList-padding.MuiList-subheader div.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.MuiCardContent-root div.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}

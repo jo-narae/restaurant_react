@@ -1,0 +1,14 @@
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-justify-xs-center {
+  margin: 10px 0 10px 0;
+}
+
+.MuiCardContent-root {
+  position: relative;
+}
+
+.MuiCardContent-root .MuiChip-root.MuiChip-colorPrimary{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
