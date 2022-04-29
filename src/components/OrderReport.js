@@ -39,7 +39,7 @@ export default function OrderReport(){
           >
             <Grid container spacing={2}>
               <Grid item>
-                <Typography>{order.id}번 주문({order.cook.firstName} {order.cook.lastName}님)</Typography>
+                <Typography>{order.id}번 주문({order.cooks.firstName} {order.cooks.lastName}님)</Typography>
               </Grid>
               <Grid item>
                 <Chip label={order.state} color="primary" />
@@ -56,7 +56,7 @@ export default function OrderReport(){
                 <ListItem key={dish.id} button>
                   <Grid container spacing={2}>
                     <Grid item>
-                      <Typography>{dish.dish.name} ($ {dish.dish.price})</Typography>
+                      <Typography>{dish.dishes.name} ($ {dish.dishes.price})</Typography>
                     </Grid>
                     <Grid item>
                       {dish.quantity}개
