@@ -76,10 +76,10 @@ export default function OrderManagement (){
               <Divider />
               <CardContent>
                 <Typography variant="h6" component="h2">
-                  Cook : {order.cook.firstName}
+                  Cook : {order.cooks.firstName}
                 </Typography> <br />
                 <Typography variant="h6" component="h2">
-                Tablet : {order.tablet.location}
+                Tablet : {order.tablets.location}
                 </Typography>
               </CardContent>
               <CardContent>
@@ -89,10 +89,10 @@ export default function OrderManagement (){
                       <ListItem key={value.id} role={undefined} dense button>
                         <ListItemText>
                           <Typography variant="h5" component="h2">
-                            {value.dish.name}
+                            {value.dishes.name}
                           </Typography>
                           <Typography variant="h5" component="h3">
-                            ${value.dish.price}
+                            ${value.dishes.price}
                           </Typography>
                         </ListItemText>
                         <ListItemSecondaryAction edge="end">
